@@ -8,7 +8,7 @@ const devOnlyPlugins = [getStartedPlugin()]
 
 export default defineConfig({
   name: 'default',
-  title: 'oldlace-wallaby',
+  title: 'SHAREME SOCIAL MEDIA APP PROJECT',
 
   projectId: 'ixsi23xy',
   dataset: 'production',
