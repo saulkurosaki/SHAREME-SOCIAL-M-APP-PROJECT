@@ -1,4 +1,68 @@
-# SHAREME-SOCIAL-MEDIA-APP-PROJECT
+# 🚀 SHAREME: Full-Stack Image-Based Social Networking Platform
+
+## **STRATEGIC ARCHITECTURE & BUSINESS VALUE**
+
+### 🎯 Identified Market Problem & Value Proposition
+
+> **Core Problem:** Users need a simple, visual-first way to save and share creative assets, while developers need a scalable way to manage user-generated media without building a complex backend from scratch.
+>
+> **T-Shape Solution:** Developed a full-stack social media app using **Sanity.io**. This project demonstrates expertise in **Headless BaaS (Backend-as-a-Service)** integration and managing user interaction loops (saving, liking, commenting).
+
+### 📈 Key Metrics, Anti-AI Strategy, and Business Alignment
+
+*   **Performance Priority:** Fast image rendering and efficient search filtering, critical for user retention in visual platforms.
+*   **Strategy Anti-AI:** The architecture for **Content Governance** (who can delete/edit what) and the design of the social data model requires human judgment on security and community UX.
+*   **Monetization/Value Stream:** Shows competency in building "sticky" platforms where user-generated content (UGC) is the core business asset.
+
+---
+
+## **DEEP SOFTWARE ARCHITECTURE**
+
+### 🛠️ Core Technology Stack
+
+| Technology | Role and Strategic Justification |
+| :--- | :--- |
+| **Framework** | ReactJs / Next.js |
+| **Backend/CMS** | Sanity.io |
+| **Styling** | Tailwind CSS |
+| **Auth** | Google OAuth / Clerk |
+
+### ⚙️ Key Architectural Decisions
+
+1.  **Sanity.io Integration:** Strategic choice to handle real-time content updates and image assets efficiently, proving a T-Shape ability to select the best tool for the job.
+2.  **Masonry Layout:** Implemented an adaptive, Pinterest-style grid to maximize visual engagement and discovery.
+3.  **Google OAuth:** Simplified the onboarding process to reduce user friction, a key metric for social platform growth.
+
+---
+
+## **T-SHAPE SUPERPOWERS & EXECUTION CHALLENGES**
+
+### 🧠 Strategic Challenges Overcome
+
+*   **Challenge 1:** Efficiently handling high-resolution image uploads and generating thumbnails for the main feed.
+*   **Solution 1:** Leveraged Sanity's built-in image asset management and transformation APIs.
+*   **Challenge 2:** Managing the real-time interaction state (likes/comments) across different components.
+*   **Solution 2:** Implemented robust local state synchronization with the Sanity backend.
+
+### 💻 Local Setup (Quick Start)
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/saulkurosaki/SHAREME-SOCIAL-M-APP-PROJECT
+
+# 2. Change directory
+cd SHAREME-SOCIAL-M-APP-PROJECT
+
+# 3. Install dependencies
+npm install
+
+# 4. Configure environment variables
+# Create a .env file and add your Sanity Project ID and Auth Token.
+
+# 5. Start Development Server
+npm run dev
+```
+---
 
 ![Alt text](<1-ShareMe y 14 páginas más - Personal_ Microsoft​ Edge 04_07_2023 01_18_52 a. m..png>)
 
